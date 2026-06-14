@@ -1,0 +1,106 @@
+
+button {
+  background-color: green;
+  color:  white
+}
+h1{ 
+  text-align: center;
+  color:#00ff88;
+  text-shadow: 
+  0 0 10px #00ff88,
+  0 0 10px#00ff88;
+}
+
+body{ 
+  font-family: arial;
+}
+nav{  
+  background-color:#a1a1a1;
+  padding: 15px;
+  border-bottom:2px solid gold;
+  text-align:center;
+}
+nav a{ 
+  color:black;
+  margin:10px;
+  text-decoration: none;
+  font-size:20px;
+     
+}
+/*naver hover */
+nav a:hover{
+  color:gold;
+}
+/*skill box */
+.skill-box{ 
+  border:2px solid black;
+  padding:10px;
+  margin:10px;
+  width:150px;
+
+}
+button:hover {
+  background-color:green;
+  color:white;
+}
+/* footer */
+footer { 
+  text-align:center;
+  margin-top:20px;
+}
+body{ 
+  background:linear-gradients(
+    135deg,
+    #0f0c29,
+    #302b63,
+    #24243e
+  );
+  background-color:#121212;
+  color: white;
+}
+h1,h2{
+  color:#00ff88;
+}
+img {
+  background-color: #121212;
+}
+
+#text{ 
+  color: white ;
+  text-shadow:
+  0 0 10px yellow;
+  0 0 20px yellow;
+  0 0 40px yellow;
+}
+progress{
+  width:250px;
+  height:15px;
+}
+.project-card{
+  border:2px Solid gold;
+  padding:15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  background:rgba(225,255,255,0,05);
+  backdrop-filter:blur(10px);
+  color:white;
+}
+.project-card:hover{
+  transform: scale(1.05);
+  transform: 0,3s;
+  box-shadow: 0 0 20px gold;
+}
+
+button{
+  background:gold;
+  color:black;
+  border: none ;
+  padding: 10px 20px;
+  border-radius:10px;
+  transition: 0,3s;
+}
+
+button:hover{
+  background:scale(1.1);
+  box-shadow: 0 0 15px orange;
+}

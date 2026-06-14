@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  
+  <meta http-equiv="refresh"
+  content="3;url=portfolio.html">
+
+  <title>welcome</title>
+  
+<link rel="stylesheet" href="wellcome.css">
+  
+  <style>
+  body{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-size:30px;
+    font-family:arial;
+  }
+
+  h1{ 
+    text-shadow:0 0 20px gold;
+  }
+  
+  p{ 
+    font-size:18px;
+  }
+  
+  .loader{
+    width:50px;
+    height:50px;
+    border:5px solid white;
+    border-top:5px solid gold;
+    border-radius:50%;
+    margin-top:20%;
+    animation:spin 1s linear infinite 
+  }
+  </style>
+  <style>
+    body{
+      background:black;
+      color:white;
+    }
+    
+    @keyframes spin{
+      100% {
+      transform:rotate(360deg)
+    }
+    }
+  </style>
+  
+</head>
+<body>
+          
+  <h1 id="text"></h1>
+  <p> future software engineer | Trader | enterpreneur </p>
+
+<div class="loader"></div>
+
+  <script>
+  let text = " wellcome to kanha arya portfolio ";
+  let i = 0;
+  
+  function type(){
+  
+  
+    if(i<text.length){
+      
+      document.getElementById("text").innerHTML+= text.charAt(i);
+      
+      i++;
+      
+      setTimeout(type,80);
+      
+    }
+
+  }
+  
+  type();
+  
+  </script>
+
+  
+</body>
+
+</html>
+
